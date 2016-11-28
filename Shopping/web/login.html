@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='css/login.css'>
+    <script type='text/javascript' src="js/jquery.js"></script>
+    <script type='text/javascript' src="js/login_val.js"></script>
+</head>
+<body style="background:url('images/background3.jpg') no-repeat center center fixed;background-size: cover;">
+<img id="heading" src="images/loginlogo3.png" alt="Secure Login">
+<div id="div1">
+	<img src="images/shopping_logo5.png" alt="Logo"/>
+	<fieldset>
+		<legend>Login Window</legend>
+		
+		<form id="myform" action="">
+		<table>
+		<tr><th align="left">UserName</th></tr>
+		<tr class="inputrow"><td><input type="text" name="username" value="" id="username" class="inputbox"></td><td><span  id="user_err"></span></td></tr>
+		<tr><th align="left">Password</th></tr>
+		<tr><td><input type="password" name="password" value='' id='password' class='inputbox'></td><td><span id="pwd_err"></span></td></tr>
+		<tr class="inputrow"><td><input type="submit" class="btn" value='    Login    '></td></tr>
+                <tr><td><span id="validuser"></span></td></tr>
+		</table>
+		</form>
+	</fieldset>
+</div>
+</body>
+</html>
